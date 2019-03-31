@@ -11,7 +11,7 @@ public class Compare2StringsTestNg {
     //compare case and text
     try {
         Assert.assertEquals(str1, str2);
-        System.out.println("Comparing string text and text case -> "+successMessage);
+        System.out.println("Comparing string text and text case ->"+successMessage);
     }catch (AssertionError e){
         System.out.println("Comparing string text and text case ->"+failMessage);
     }}
