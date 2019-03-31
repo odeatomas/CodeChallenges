@@ -6,6 +6,6 @@ public class CompareStringSimple {
         if (str1.equals(str2))
             System.out.println("True strings match ");
         else {
-            System.out.println("False strings match ");
+            System.out.println("False strings don't match ");
         } } }
 
