@@ -4,11 +4,8 @@ public class CompareStringSimple {
         String str2 = "cat";
 
         if (str1.equals(str2))
-            System.out.println("True");
+            System.out.println("True strings match ");
         else {
-            System.out.println("False");
-        }
-
-    }
-}
+            System.out.println("False strings match ");
+        } } }
 
